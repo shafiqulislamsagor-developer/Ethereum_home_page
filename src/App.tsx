@@ -1,3 +1,4 @@
+import EthChart from "./component/EthereumChart";
 import EthereumPriceTable from "./component/EthereumPriceTable";
 import EthereumText from "./component/EthereumText";
 import Footer from "./component/Footer";
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar />
       <EthereumPriceTable />
+      <EthChart />
       <EthereumText />
       <Footer />
     </>
